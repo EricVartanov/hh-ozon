@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma-Bold.eot");
+    src: local("Tahoma Bold"), local("Tahoma-Bold"),
+        url(../fonts/Tahoma-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma-Bold.woff2) format("woff2"),
+        url(../fonts/Tahoma-Bold.woff) format("woff"),
+        url(../fonts/Tahoma-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma.eot");
+    src: local("Tahoma"), url(../fonts/Tahoma.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma.woff2) format("woff2"),
+        url(../fonts/Tahoma.woff) format("woff"),
+        url(../fonts/Tahoma.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img,
+svg {
+    width: 100%;
+    display: block;
+}
+
+.idc-section {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.idc-container {
+    margin: 0 auto;
+    max-width: 610px;
+}
+
+.idc-bgwrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+/* *********************************head***************** */
+.idc-head .idc-container {
+    height: 343px;
+}
+.idc-ozon-word {
+    display: inline-block;
+    position: relative;
+}
+.idc-age {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+/* ************about************* */
+
+.idc-about .idc-container {
+    padding-top: 20px;
+}
+.idc-about .idc-tahoma18 {
+    margin: 0;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* *************info************** */
+
+.idc-info .idc-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.idc-info p > strong {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.idc-info p {
+    margin: 0;
+    margin-bottom: 30px;
+}
+.idc-info p:not(:first-child) {
+    margin-top: 80px;
+}
+
+.idc-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.idc-info ul li {
+    position: relative;
+    margin-top: 17px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.idc-info ul li::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 15px;
+    height: 1px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* ***********************footer****************** */
+.idc-footer .idc-container {
+    padding-bottom: 50px;
+}
+.idc-ps {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}

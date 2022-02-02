@@ -1,0 +1,57 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        height: 56vw;
+    }
+
+    /* ******about**** */
+    .idc-about .idc-container{
+        padding-top: 35px;
+    }
+    .idc-about .idc-tahoma18 {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-age {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .idc-info p > strong {
+        line-height: 110%;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 18px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    
+    /* *****footer*** */
+    .idc-footer .idc-container {
+        padding-bottom: 40px;
+    }
+
+    .idc-ps {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
