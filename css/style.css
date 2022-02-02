@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Tahoma";
     src: url("Tahoma-Bold.eot");
@@ -91,6 +92,10 @@ svg {
 .idc-about .idc-container {
     padding-top: 20px;
 }
+.idc-about .idc-tahoma18:first-child{
+    max-width: 520px;
+    padding-right: 0;
+}
 .idc-about .idc-tahoma18 {
     margin: 0;
     margin-top: 20px;
@@ -99,6 +104,7 @@ svg {
     font-size: 18px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.7);
+    padding-right: 30px;
 }
 
 /* *************info************** */
